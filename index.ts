@@ -6,5 +6,5 @@ const s = serve({ port: PORT })
 console.log('http://localhost:' + PORT)
 
 for await (const req of s) {
-  req.respond({ body: 'Hello World Update\n' })
+  req.respond({ body: 'Hello World Update2\n' })
 }
